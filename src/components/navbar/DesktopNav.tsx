@@ -12,28 +12,28 @@ const DesktopNav: React.FC = () => {
         Home
       </Link>
       <Link
-        to="/news/chromebook"
+        to="/news"
         className="text-cb-dark hover:text-cb-green transition-colors"
       >
-        ChromeBook
+        News
       </Link>
       <Link
-        to="/news/chromeos"
+        to="/recensioni"
         className="text-cb-dark hover:text-cb-green transition-colors"
       >
-        ChromeOS
+        Recensioni
       </Link>
       <Link
-        to="/news/android"
+        to="/trucchi-consigli"
         className="text-cb-dark hover:text-cb-green transition-colors"
       >
-        Android
+        Trucchi&Consigli
       </Link>
       <Link
-        to="/news/chrome"
+        to="/faq"
         className="text-cb-dark hover:text-cb-green transition-colors"
       >
-        Chrome
+        FAQ
       </Link>
       <Link
         to="/forum"

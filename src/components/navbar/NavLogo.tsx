@@ -8,7 +8,7 @@ const NavLogo: React.FC = () => {
       <img
         src="/lovable-uploads/8491c047-d089-4ccb-9662-84da916131ba.png"
         alt="ChromeBookItalia"
-        className="h-10" // Aumentato da h-8 a h-10
+        className="h-12" // Aumentato da h-10 a h-12
       />
     </Link>
   );

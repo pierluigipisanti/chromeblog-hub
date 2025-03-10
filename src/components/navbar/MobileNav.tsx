@@ -27,32 +27,32 @@ const MobileNav: React.FC<MobileNavProps> = ({ isOpen, onToggle }) => {
           Home
         </Link>
         <Link
-          to="/news/chromebook"
+          to="/news"
           className="text-cb-dark hover:text-cb-green transition-colors"
           onClick={onToggle}
         >
-          ChromeBook
+          News
         </Link>
         <Link
-          to="/news/chromeos"
+          to="/recensioni"
           className="text-cb-dark hover:text-cb-green transition-colors"
           onClick={onToggle}
         >
-          ChromeOS
+          Recensioni
         </Link>
         <Link
-          to="/news/android"
+          to="/trucchi-consigli"
           className="text-cb-dark hover:text-cb-green transition-colors"
           onClick={onToggle}
         >
-          Android
+          Trucchi&Consigli
         </Link>
         <Link
-          to="/news/chrome"
+          to="/faq"
           className="text-cb-dark hover:text-cb-green transition-colors"
           onClick={onToggle}
         >
-          Chrome
+          FAQ
         </Link>
         <Link
           to="/forum"
