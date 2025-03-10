@@ -48,20 +48,22 @@ const Navbar: React.FC = () => {
       <div className="cb-container">
         <div className="flex h-16 items-center justify-between">
           <div className="flex items-center">
-            <Link to="/" className="flex items-center space-x-2 mr-6">
+            <Link to="/" className="flex items-center mr-6">
               <img
                 src="/lovable-uploads/8491c047-d089-4ccb-9662-84da916131ba.png"
                 alt="ChromeBookItalia"
                 className="h-8"
               />
-              <span className="font-bold text-xl hidden md:inline-block">
-                <span className="text-cb-green">Chrome</span>
-                <span className="text-cb-red">BookItalia</span>
-              </span>
             </Link>
 
             {!isMobile && (
               <nav className="hidden md:flex items-center space-x-6">
+                <Link
+                  to="/"
+                  className="text-cb-dark hover:text-cb-green transition-colors"
+                >
+                  Home
+                </Link>
                 <Link
                   to="/news/chromebook"
                   className="text-cb-dark hover:text-cb-green transition-colors"
@@ -163,6 +165,13 @@ const Navbar: React.FC = () => {
                 <Input type="search" placeholder="Cerca nel sito..." />
                 <Search className="absolute right-3 top-1/2 -translate-y-1/2 h-4 w-4 text-cb-dark" />
               </div>
+              <Link
+                to="/"
+                className="text-cb-dark hover:text-cb-green transition-colors"
+                onClick={toggleMenu}
+              >
+                Home
+              </Link>
               <Link
                 to="/news/chromebook"
                 className="text-cb-dark hover:text-cb-green transition-colors"
